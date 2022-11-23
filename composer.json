@@ -1,0 +1,24 @@
+{
+    "name": "kadmin/settings_environment",
+    "description": "krytoi-boi",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev",
+        "nikic/fast-route": "2.0.x-dev",
+        "retmix/collect": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
